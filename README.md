@@ -1,1 +1,3 @@
-# food-delivery-basic-frontend-project
+# tastybites
+
+It is a Basic frontend food delivery structure website. 
