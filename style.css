@@ -1,0 +1,165 @@
+*{
+    box-sizing:border-box ;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: color #fff9f4;
+    color: #333;
+  line-height: 1.6em;  
+}
+
+
+header{
+    background-color:#ff5e57 ;
+    color: white;
+    padding:40px ;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.about-section h2{
+    text-align: center;
+    font-size: 24px;
+    color: #f10e4b;
+    margin-bottom: 20px;
+}
+
+.aboutcontent{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.menu-section{
+    padding: 40px 20px;
+    text-align: center;
+    background-color: fff0e6;
+
+}
+
+.menu-section h2{
+    font-size: 30px;
+    color:#f10e4b;
+    margin-bottom: 30px;
+}
+
+.menu-item{
+    display: inline-block;
+    width: 220px;
+    margin: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    padding: 20px;
+    text-align: center;
+} 
+
+.menu-img{
+    width: 100%;
+    height: 100;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 12px;
+}
+.dish-name{
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+button{
+    background-color: #f10e4b;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+
+}
+
+button.hover{
+    background-color: #e048e0 ;
+}
+
+.menu-item:hover{
+    transform: translateY(-12px) scale(1.03);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+}
+button{
+    background: linear-gradient(135deg, #f10e4b, #ff5e57);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+button:hover{
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(241,14,75,0.5);
+}
+.about-section{
+    background: rgba(255,255,255,0.7);
+    backdrop-filter: blur(10px);
+    margin: 50px auto;
+    width: 80%;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    text-align: center;
+}
+footer{
+    background: linear-gradient(135deg, #f10e4b, #ff5e57);
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 500;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+/* Remove old header style if any */
+
+/* Fix body background error */
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff9f4;  /* FIXED */
+    color: #333;
+    line-height: 1.6em;
+}
+
+/* HERO FULL IMAGE */
+.hero{
+    width: 100%;
+    height: 100vh;   /* Full screen height */
+    margin: 0;
+    padding: 0;
+}
+
+.hero-img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;   /* Shows full image without cropping */
+    display: block;
+}
+
+
+
